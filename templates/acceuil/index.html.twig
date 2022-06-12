@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Acceuil{% endblock %}
+
+{% block body %}
+    {% include'pages/header.html.twig' %}
+    {% include'pages/technologie.html.twig' %}
+    {{ include('pages/about.html.twig') }}
+    {{ include('pages/contact.html.twig') }}
+    {{ include('pages/portefolio2_3_4_5_6.html.twig') }}
+{% endblock %}
