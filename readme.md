@@ -34,7 +34,7 @@ symfony console make:unit-test
 php bin/phpunit --testdox
 
 # installation de webpack
-composer req symfony/webpack-encore-bundlE
+composer req symfony/webpack-encore-bundle
 # dans le fichier assert on remplace css par scss
 # pour builder et lancement de webpack
 vider le fichier app.scss
